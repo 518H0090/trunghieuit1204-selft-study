@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .subscribe {
+      text-transform: uppercase;
+      background-color: red;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      padding: 10px 24px;
+      font-weight: bolder;
+      margin-right: 8px;
+      cursor: pointer;
+    }
+
+    .join {
+      text-transform: uppercase;
+      background-color: white;
+      border: 2px solid rgb(43, 116, 141);
+      color: rgb(43, 116, 141);
+      font-weight: 500;
+      padding: 10px 16px;
+      cursor: pointer;
+    }
+
+    .tweet {
+      background-color: rgb(47, 47, 188);
+      text-transform: capitalize;
+      color: white;
+      font-weight: 500;
+      border-radius: 20px;
+      padding: 10px 24px;
+      cursor: pointer;
+    }
+
+    .subscribe:hover,
+    .join:hover,
+    .tweet:hover {
+      opacity: 0.8;
+    }
+
+    .subscribe:active,
+    .join:active,
+    .tweet:active {
+      opacity: 0.4;
+    }
+
+    ul {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      padding: 0;
+    }
+
+    li {
+      margin-right: 10px;
+      text-decoration: underline;
+      color: blue;
+    }
+
+    li:first-child button,
+    li:last-child button {
+      padding: 10px 20px;
+    }
+
+    .stretch {
+      background-color: green;
+      color: white;
+      border: none;
+      border-radius: 2px;
+      padding: 10px 20px;
+      cursor: pointer;
+      transition: padding 0.3s;
+    }
+
+    .stretch:hover {
+      padding: 20px 40px;
+    }
+
+    .shadow {
+      background-color: green;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      box-shadow: 4px 4px 4px black;
+      transition: all 0.4s;
+    }
+
+    .shadow:active {
+      box-shadow: 0px 0px 0px black;
+      transform: translate(4px, 4px);
+    }
+
+    .together {
+      background-color: green;
+      color: white;
+      border: none;
+      border-radius: 2px;
+      padding: 8px 14px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: all 0.3s;
+    }
+
+    .together:hover {
+      padding: 8px 24px;
+    }
+
+    div a {
+      color: rgb(51, 159, 159);
+      font-size: 1.1rem;
+    }
+
+    div a:hover {
+      color: orange;
+    }
+
+    div p:first-of-type {
+      color: rgb(128, 185, 41);
+    }
+
+    div button {
+      height: 36px;
+      width: 140px;
+      border: none;
+      border-radius: 18px;
+      cursor: pointer;
+    }
+
+    div button:hover {
+      opacity: 0.8;
+    }
+
+    div button:active {
+      opacity: 0.4;
+    }
+
+    div button:first-of-type {
+      background-color: rgb(243, 243, 0);
+      margin-right: 10px;
+    }
+
+    div button:last-of-type {
+      background-color: orangered;
+    }
+  </style>
+  <body>
+    <button class="subscribe">subscribe</button>
+    <button class="join">join</button>
+    <button class="tweet">tweet</button>
+
+    <br /><br />
+
+    <ul>
+      <li>
+        <button>Back</button>
+      </li>
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+      <li>4</li>
+      <li>5</li>
+      <li>
+        <button>Next</button>
+      </li>
+    </ul>
+
+    <br />
+
+    <button class="stretch">Stretch</button>
+
+    <br /><br />
+
+    <button class="shadow">Shadow</button>
+
+    <br /><br />
+
+    <button class="together">One</button>
+    <button class="together">Two</button>
+    <button class="together">Three</button>
+
+    <br /><br />
+
+    <div>
+      <a href="https://www.amazon.com/">Back to Amazon</a>
+      <h1>Nike Black Running Shoes</h1>
+      <p>$39 - instock.</p>
+      <p>Free delivery tomorrow.</p>
+      <button>Add to Cart</button>
+      <button>Buy now</button>
+    </div>
+  </body>
+</html>

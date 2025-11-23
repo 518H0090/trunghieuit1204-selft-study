@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 9</title>
+    <style>
+      .exercise-9a {
+        width: 96px;
+        height: 96px;
+        background-color: red;
+        margin-bottom: 14px;
+      }
+
+      .exercise-9b {
+        width: 96px;
+        height: 96px;
+        background-color: green;
+        border-radius: 100%;
+      }
+
+      .exercise-9c {
+        border: 1px solid black;
+        box-sizing: border-box;
+        padding: 10px 20px;
+        margin-top: 12px;
+      }
+
+      .exercise-9d {
+        background-color: rgb(0, 0, 0);
+        padding: 10px 20px;
+        margin-top: 12px;
+      }
+
+      .exercise-9d p:first-of-type {
+        color: white;
+        font-weight: bold;
+        font-size: 1.4rem;
+      }
+
+      .exercise-9d p:last-of-type {
+        color: #848484;
+        font-size: 1.4rem;
+      }
+
+      .exercise-9e {
+        margin-top: 12px;
+        box-shadow: 1px 1px 4px black;
+        display: flex;
+        align-items: center;
+        padding: 10px 20px;
+      }
+
+      .exercise-9e img {
+        width: 60px;
+        height: 60px;
+        border-radius: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+
+      .exercise-9e p {
+        margin: 0 10px;
+        margin-left: 14px;
+        flex: 1;
+      }
+
+      .exercise-9e button {
+        background-color: rgb(32, 159, 243);
+        color: white;
+        text-transform: capitalize;
+        height: 36px;
+        width: 76px;
+        border: none;
+        border-radius: 18px;
+        cursor: pointer;
+      }
+
+      .exercise-9f {
+        margin-top: 14px;
+        box-shadow: 1px 1px 4px black;
+        box-sizing: border-box;
+        width: 180px;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      .exercise-9f div {
+        padding-bottom: 14px;
+        padding-left: 14px;
+      }
+
+      .exercise-9f img {
+        width: 180px;
+        height: 120px;
+        object-fit: cover;
+        object-position: center;
+      }
+
+      .exercise-9f p {
+        color: grey;
+        line-height: 0.4;
+      }
+
+      .exercise-9f button {
+        background-color: rgb(12, 158, 255);
+        color: white;
+        border: none;
+        width: 106px;
+        height: 32px;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      .exercise-9g {
+        display: flex;
+        gap: 10px;
+      }
+
+      .exercise-9h {
+        box-shadow: 2px 2px 6px black;
+        text-align: center;
+        padding: 14px 20px;
+        margin-top: 20px;
+        border-radius: 4px;
+      }
+
+      .exercise-9h img {
+        width: 200px;
+        display: inline-block;
+      }
+
+      .exercise-9h input {
+        width: 480px;
+        height: 24px;
+        padding: 8px 16px;
+        border-radius: 24px;
+        border: 1px solid grey;
+        outline: none;
+        margin: 14px 0;
+      }
+
+      .exercise-9h button {
+        min-width: 108px;
+        padding: 12px 20px;
+        margin-right: 12px;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 9a -->
+    <div class="exercise-9a"></div>
+
+    <!-- 9b -->
+    <div class="exercise-9b"></div>
+
+    <!-- 9c -->
+    <div class="exercise-9c">
+      <p>Satisfied with our service?</p>
+      <button>Yes</button>
+      <button>No</button>
+    </div>
+
+    <!-- 9d -->
+    <div class="exercise-9d">
+      <p>Install Youtube Music</p>
+      <p>Add Youtube Music to your desktop for quick and easy access</p>
+    </div>
+
+    <!-- 9e -->
+    <div class="exercise-9e">
+      <img src="./thumbnails/cat.jpg" al t="cat" />
+      <p>What's happening?</p>
+      <button>Tweet</button>
+    </div>
+
+    <!-- 9f -->
+    <div class="exercise-9f">
+      <img src="./thumbnails/cat.jpg" al t="cat" />
+      <div>
+        <h3>Oliver</h3>
+        <p>2 mutual friends</p>
+        <button>Add Friend</button>
+      </div>
+    </div>
+
+    <!-- 9g -->
+    <div class="exercise-9g">
+      <div class="exercise-9f">
+        <img src="./thumbnails/cat.jpg" al t="cat" />
+        <div>
+          <h3>Oliver</h3>
+          <p>2 mutual friends</p>
+          <button>Add Friend</button>
+        </div>
+      </div>
+      <div class="exercise-9f">
+        <img
+          src="./thumbnails/c9295bf92a8c87f865116be60daa6a31509823c8c11da3fcbc5a6dc589ff9da2.jpg"
+          al
+          t="dragon ball"
+        />
+        <div>
+          <h3>Goku</h3>
+          <p>999+ mutual friends</p>
+          <button>Add Friend</button>
+        </div>
+      </div>
+      <div class="exercise-9f">
+        <img src="./thumbnails/maxresdefault-12-1.jpg" al t="Irum" />
+        <div>
+          <h3>Iruma</h3>
+          <p>14 mutual friends</p>
+          <button>Add Friend</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 9h -->
+    <div class="exercise-9h">
+      <img src="./thumbnails/Google_2015_logo.svg.webp" alt="Google" />
+      <br />
+      <input type="text" placeholder="Search Google or type a URL" />
+      <br />
+      <button>Google Search</button>
+      <button>I'm Feeling Lucky</button>
+    </div>
+  </body>
+</html>

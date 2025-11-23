@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 7</title>
+    <style>
+      .ex {
+        cursor: pointer;
+      }
+
+      .ex-7a {
+        width: 200px;
+        border-radius: 8px;
+        margin-right: 12px;
+      }
+
+      .ex-7b {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        object-position: center;
+        margin-right: 12px;
+      }
+
+      .ex-7c {
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+
+      .ex-7d {
+        padding: 10px 12px;
+        border-radius: 8px;
+      }
+
+      .ex-7e {
+        display: block;
+        min-height: 24px;
+        min-width: 400px;
+        padding: 4px 10px;
+        border-radius: 16px;
+        outline: none;
+        border: 1px solid grey;
+        color: grey;
+        box-shadow: 1px 1px 1px black;
+      }
+
+      .ex-7f label {
+        display: block;
+      }
+
+      .ex-7f #email {
+        display: block;
+        height: 24px;
+        width: 400px;
+      }
+
+      .ex-7f p {
+        color: grey;
+        font-size: 0.8rem;
+      }
+
+      .ex-7f button {
+        height: 48px;
+        width: 400px;
+        background-color: rgb(7, 168, 255);
+        border: none;
+        border-radius: 24px;
+        color: white;
+        font-size: 1.2rem;
+        cursor: pointer;
+      }
+
+      .ex-7g {
+        display: flex;
+        align-items: center;
+      }
+
+      .ex-7g img {
+        width: 48px;
+        height: 48px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 100%;
+      }
+
+      .ex-7g p {
+        color: grey;
+        margin-left: 12px;
+      }
+
+      .ex-7g button {
+        height: 32px;
+        width: 84px;
+        color: white;
+        background-color: rgb(0, 136, 255);
+        border: none;
+        border-radius: 16px;
+        cursor: pointer;
+        font-weight: bold;
+        text-transform: capitalize;
+        margin-left: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 7a -->
+    <img class="ex ex-7a" src="./thumbnails/cat.jpg" alt="" />
+
+    <!-- 7b -->
+    <img class="ex ex-7b" src="./thumbnails/cat.jpg" alt="" />
+
+    <!-- 7c -->
+    <img class="ex ex-7c" src="./thumbnails/cat.jpg" alt="" />
+
+    <br /><br />
+
+    <!-- 7d -->
+    <input class="ex-7d" type="text" placeholder="Search" />
+
+    <br /><br />
+
+    <!-- 7e -->
+    <input
+      class="ex-7e"
+      type="text"
+      placeholder="Search Google or type a URL"
+    />
+
+    <br /><br />
+
+    <!-- 7f -->
+    <div class="ex-7f">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" />
+      <p>By clicking Agree & Join, you agree to the Privacy Policy.</p>
+      <button>Agree & Join</button>
+    </div>
+
+    <br /><br />
+
+    <!-- 7g -->
+    <div class="ex-7g">
+      <img src="./thumbnails/cat.jpg" alt="cat" />
+      <p>What's happening?</p>
+      <button>tweet</button>
+    </div>
+  </body>
+</html>
