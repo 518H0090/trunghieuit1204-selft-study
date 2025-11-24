@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HOME\\Desktop\\trunghieuit1204-selft-study\\FirstExampleAPIDotnet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{46A8D9D2-0A68-47B2-92A9-AEE369622B34}|FirstExampleAPIDotnet\\FirstExampleAPIDotnet.csproj|c:\\users\\home\\desktop\\trunghieuit1204-selft-study\\firstexampleapidotnet\\firstexampleapidotnet\\controllers\\superherocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46A8D9D2-0A68-47B2-92A9-AEE369622B34}|FirstExampleAPIDotnet\\FirstExampleAPIDotnet.csproj|solutionrelative:firstexampleapidotnet\\controllers\\superherocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A8D9D2-0A68-47B2-92A9-AEE369622B34}|FirstExampleAPIDotnet\\FirstExampleAPIDotnet.csproj|c:\\users\\home\\desktop\\trunghieuit1204-selft-study\\firstexampleapidotnet\\firstexampleapidotnet\\dtos\\updatesuperherodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46A8D9D2-0A68-47B2-92A9-AEE369622B34}|FirstExampleAPIDotnet\\FirstExampleAPIDotnet.csproj|solutionrelative:firstexampleapidotnet\\dtos\\updatesuperherodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A8D9D2-0A68-47B2-92A9-AEE369622B34}|FirstExampleAPIDotnet\\FirstExampleAPIDotnet.csproj|c:\\users\\home\\desktop\\trunghieuit1204-selft-study\\firstexampleapidotnet\\firstexampleapidotnet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46A8D9D2-0A68-47B2-92A9-AEE369622B34}|FirstExampleAPIDotnet\\FirstExampleAPIDotnet.csproj|solutionrelative:firstexampleapidotnet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A8D9D2-0A68-47B2-92A9-AEE369622B34}|FirstExampleAPIDotnet\\FirstExampleAPIDotnet.csproj|c:\\users\\home\\desktop\\trunghieuit1204-selft-study\\firstexampleapidotnet\\firstexampleapidotnet\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46A8D9D2-0A68-47B2-92A9-AEE369622B34}|FirstExampleAPIDotnet\\FirstExampleAPIDotnet.csproj|solutionrelative:firstexampleapidotnet\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A8D9D2-0A68-47B2-92A9-AEE369622B34}|FirstExampleAPIDotnet\\FirstExampleAPIDotnet.csproj|c:\\users\\home\\desktop\\trunghieuit1204-selft-study\\firstexampleapidotnet\\firstexampleapidotnet\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46A8D9D2-0A68-47B2-92A9-AEE369622B34}|FirstExampleAPIDotnet\\FirstExampleAPIDotnet.csproj|solutionrelative:firstexampleapidotnet\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A8D9D2-0A68-47B2-92A9-AEE369622B34}|FirstExampleAPIDotnet\\FirstExampleAPIDotnet.csproj|c:\\users\\home\\desktop\\trunghieuit1204-selft-study\\firstexampleapidotnet\\firstexampleapidotnet\\dtos\\addsuperherodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46A8D9D2-0A68-47B2-92A9-AEE369622B34}|FirstExampleAPIDotnet\\FirstExampleAPIDotnet.csproj|solutionrelative:firstexampleapidotnet\\dtos\\addsuperherodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HOME\\Desktop\\trunghieuit1204-selft-study\\FirstExampleAPIDotnet\\FirstExampleAPIDotnet\\Migrations\\20251124143752_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FirstExampleAPIDotnet\\Migrations\\20251124143752_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SuperHeroController.cs",
+              "DocumentMoniker": "C:\\Users\\HOME\\Desktop\\trunghieuit1204-selft-study\\FirstExampleAPIDotnet\\FirstExampleAPIDotnet\\Controllers\\SuperHeroController.cs",
+              "RelativeDocumentMoniker": "FirstExampleAPIDotnet\\Controllers\\SuperHeroController.cs",
+              "ToolTip": "C:\\Users\\HOME\\Desktop\\trunghieuit1204-selft-study\\FirstExampleAPIDotnet\\FirstExampleAPIDotnet\\Controllers\\SuperHeroController.cs",
+              "RelativeToolTip": "FirstExampleAPIDotnet\\Controllers\\SuperHeroController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAQwEsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T13:36:07.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UpdateSuperHeroDto.cs",
+              "DocumentMoniker": "C:\\Users\\HOME\\Desktop\\trunghieuit1204-selft-study\\FirstExampleAPIDotnet\\FirstExampleAPIDotnet\\DTOs\\UpdateSuperHeroDto.cs",
+              "RelativeDocumentMoniker": "FirstExampleAPIDotnet\\DTOs\\UpdateSuperHeroDto.cs",
+              "ToolTip": "C:\\Users\\HOME\\Desktop\\trunghieuit1204-selft-study\\FirstExampleAPIDotnet\\FirstExampleAPIDotnet\\DTOs\\UpdateSuperHeroDto.cs",
+              "RelativeToolTip": "FirstExampleAPIDotnet\\DTOs\\UpdateSuperHeroDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T15:33:19.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HOME\\Desktop\\trunghieuit1204-selft-study\\FirstExampleAPIDotnet\\FirstExampleAPIDotnet\\Program.cs",
+              "RelativeDocumentMoniker": "FirstExampleAPIDotnet\\Program.cs",
+              "ToolTip": "C:\\Users\\HOME\\Desktop\\trunghieuit1204-selft-study\\FirstExampleAPIDotnet\\FirstExampleAPIDotnet\\Program.cs",
+              "RelativeToolTip": "FirstExampleAPIDotnet\\Program.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAASwB0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T14:40:22.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\HOME\\Desktop\\trunghieuit1204-selft-study\\FirstExampleAPIDotnet\\FirstExampleAPIDotnet\\Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "FirstExampleAPIDotnet\\Data\\DataContext.cs",
+              "ToolTip": "C:\\Users\\HOME\\Desktop\\trunghieuit1204-selft-study\\FirstExampleAPIDotnet\\FirstExampleAPIDotnet\\Data\\DataContext.cs",
+              "RelativeToolTip": "FirstExampleAPIDotnet\\Data\\DataContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T14:36:15.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\HOME\\Desktop\\trunghieuit1204-selft-study\\FirstExampleAPIDotnet\\FirstExampleAPIDotnet\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "FirstExampleAPIDotnet\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\HOME\\Desktop\\trunghieuit1204-selft-study\\FirstExampleAPIDotnet\\FirstExampleAPIDotnet\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "FirstExampleAPIDotnet\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T14:36:14.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20251124143752_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\HOME\\Desktop\\trunghieuit1204-selft-study\\FirstExampleAPIDotnet\\FirstExampleAPIDotnet\\Migrations\\20251124143752_Initial.cs",
+              "RelativeDocumentMoniker": "FirstExampleAPIDotnet\\Migrations\\20251124143752_Initial.cs",
+              "ToolTip": "C:\\Users\\HOME\\Desktop\\trunghieuit1204-selft-study\\FirstExampleAPIDotnet\\FirstExampleAPIDotnet\\Migrations\\20251124143752_Initial.cs",
+              "RelativeToolTip": "FirstExampleAPIDotnet\\Migrations\\20251124143752_Initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T14:37:52.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddSuperHeroDto.cs",
+              "DocumentMoniker": "C:\\Users\\HOME\\Desktop\\trunghieuit1204-selft-study\\FirstExampleAPIDotnet\\FirstExampleAPIDotnet\\DTOs\\AddSuperHeroDto.cs",
+              "RelativeDocumentMoniker": "FirstExampleAPIDotnet\\DTOs\\AddSuperHeroDto.cs",
+              "ToolTip": "C:\\Users\\HOME\\Desktop\\trunghieuit1204-selft-study\\FirstExampleAPIDotnet\\FirstExampleAPIDotnet\\DTOs\\AddSuperHeroDto.cs",
+              "RelativeToolTip": "FirstExampleAPIDotnet\\DTOs\\AddSuperHeroDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T14:38:37.187Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
