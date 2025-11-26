@@ -1,0 +1,15 @@
+C:\Users\HOME\Desktop\trunghieuit1204-selft-study\dotnet\EventHandler\EventHandler\bin\Debug\net8.0\EventHandler.exe
+C:\Users\HOME\Desktop\trunghieuit1204-selft-study\dotnet\EventHandler\EventHandler\bin\Debug\net8.0\EventHandler.deps.json
+C:\Users\HOME\Desktop\trunghieuit1204-selft-study\dotnet\EventHandler\EventHandler\bin\Debug\net8.0\EventHandler.runtimeconfig.json
+C:\Users\HOME\Desktop\trunghieuit1204-selft-study\dotnet\EventHandler\EventHandler\bin\Debug\net8.0\EventHandler.dll
+C:\Users\HOME\Desktop\trunghieuit1204-selft-study\dotnet\EventHandler\EventHandler\bin\Debug\net8.0\EventHandler.pdb
+C:\Users\HOME\Desktop\trunghieuit1204-selft-study\dotnet\EventHandler\EventHandler\obj\Debug\net8.0\EventHandler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HOME\Desktop\trunghieuit1204-selft-study\dotnet\EventHandler\EventHandler\obj\Debug\net8.0\EventHandler.AssemblyInfoInputs.cache
+C:\Users\HOME\Desktop\trunghieuit1204-selft-study\dotnet\EventHandler\EventHandler\obj\Debug\net8.0\EventHandler.AssemblyInfo.cs
+C:\Users\HOME\Desktop\trunghieuit1204-selft-study\dotnet\EventHandler\EventHandler\obj\Debug\net8.0\EventHandler.csproj.CoreCompileInputs.cache
+C:\Users\HOME\Desktop\trunghieuit1204-selft-study\dotnet\EventHandler\EventHandler\obj\Debug\net8.0\EventHandler.sourcelink.json
+C:\Users\HOME\Desktop\trunghieuit1204-selft-study\dotnet\EventHandler\EventHandler\obj\Debug\net8.0\EventHandler.dll
+C:\Users\HOME\Desktop\trunghieuit1204-selft-study\dotnet\EventHandler\EventHandler\obj\Debug\net8.0\refint\EventHandler.dll
+C:\Users\HOME\Desktop\trunghieuit1204-selft-study\dotnet\EventHandler\EventHandler\obj\Debug\net8.0\EventHandler.pdb
+C:\Users\HOME\Desktop\trunghieuit1204-selft-study\dotnet\EventHandler\EventHandler\obj\Debug\net8.0\EventHandler.genruntimeconfig.cache
+C:\Users\HOME\Desktop\trunghieuit1204-selft-study\dotnet\EventHandler\EventHandler\obj\Debug\net8.0\ref\EventHandler.dll
