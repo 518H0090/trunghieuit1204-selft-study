@@ -1,0 +1,6 @@
+@FirstCRUDWithDotnet9_HostAddress = http://localhost:5273
+
+GET {{FirstCRUDWithDotnet9_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
