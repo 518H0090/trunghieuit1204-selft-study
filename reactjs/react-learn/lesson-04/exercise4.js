@@ -186,6 +186,45 @@ function EX4HControl() {
   );
 }
 
+function EX4I() {
+  const [count, setCount] = React.useState(0);
+  const intervalRef = React.useRef(null);
+
+  function AddCount() {
+    setCount((prev) => prev + 1);
+    clearInterval(intervalRef.current);
+    intervalRef.current = null;
+  }
+
+  function ResetCount() {
+    setCount(0);
+    clearInterval(intervalRef.current);
+    intervalRef.current = null;
+  }
+
+  function AutoCount() {
+    if (intervalRef.current) return;
+
+    intervalRef.current = setInterval(() => {
+      setCount((prev) => prev + 1);
+    }, 1000);
+  }
+
+  React.useEffect(() => {
+    return () => clearInterval(intervalRef.current);
+  }, []);
+
+  return (
+    <div className="ex4i">
+      <button onClick={AddCount}>
+        Clicked {count === 1 ? `${count} time` : `${count} times`}
+      </button>
+      <button onClick={ResetCount}>Reset</button>
+      <button onClick={AutoCount}>Auto Click</button>
+    </div>
+  );
+}
+
 const App = () => {
   return (
     <>
@@ -198,6 +237,7 @@ const App = () => {
       <EX4G />
       <EX4H />
       <EX4HControl />
+      <EX4I />
     </>
   );
 };
