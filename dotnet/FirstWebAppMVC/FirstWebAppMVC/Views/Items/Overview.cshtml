@@ -1,0 +1,29 @@
+﻿@model FirstWebAppMVC.Models.Item
+@{
+    var items = new List<string>
+    {
+        "Item 1",
+        "Item 2",
+        "Item 3"
+    };
+
+    var isLoggedIn = true;
+}
+
+<p>This is the name of the item @Model.Name</p>
+
+<ul>
+    @foreach(var item in items)
+    {
+        <li>@item</li>
+    }
+</ul>
+
+@if (isLoggedIn)
+{
+    <p>Welcome back!</p>
+}
+else
+{
+    <p>Please log in.</p>
+}
