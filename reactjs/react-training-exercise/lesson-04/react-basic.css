@@ -1,0 +1,90 @@
+.ex4a-button,
+.ex4b-button,
+.ex4c-button {
+  display: block;
+  background-color: rgb(25, 135, 84);
+  padding: 10px 16px;
+  border: none;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 8px;
+  margin: 8px 0;
+  cursor: pointer;
+}
+
+.ex4b-button,
+.ex4c-button {
+  padding: 14px 20px;
+}
+
+.ex4c-button--off {
+  background-color: rgb(220, 53, 69);
+}
+
+.ex4d {
+  box-shadow: inset 1px 2px 4px rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  min-width: 300px;
+  width: min-content;
+  margin: 14px 0;
+}
+
+.ex4d p {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.ex4d input {
+  display: block;
+  padding: 10px 14px;
+  min-width: 200px;
+  border-radius: 6px;
+  outline: none;
+  border: 1px solid grey;
+}
+
+.ex4d input + div {
+  margin: 10px 0;
+}
+
+.ex4d > button {
+  background-color: rgb(0, 123, 255);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.ex4d > button + button {
+  margin-left: 8px;
+}
+
+.ex4d div {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+}
+
+.ex4d div button {
+  cursor: pointer;
+}
+
+.ex4i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background-color: rgb(222, 222, 222);
+  margin: 0;
+  column-gap: 8px;
+}
+
+.ex4i button {
+  background-color: rgb(25, 135, 84);
+  padding: 12px 24px;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}

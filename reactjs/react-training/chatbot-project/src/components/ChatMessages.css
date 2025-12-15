@@ -1,0 +1,15 @@
+.chat-messages-container {
+  flex-grow: 1;
+  margin-top: 20px;
+  /* Scroll behavior */
+  overflow: scroll;
+  /* Hide scroll bar */
+  scrollbar-width: none;
+}
+
+.chat-messages-container p {
+  color: grey;
+  text-align: center;
+  box-shadow: inset 1px 2px 4px rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+}

@@ -16,3 +16,11 @@ npm install
 npm run dev
 
 npm run lint
+
+pwd = confirm in which folder
+
+npm install dayjs
+
+npm install react-router
+
+npm install react-router@version
