@@ -1,20 +1,34 @@
 import { Routes, Route } from "react-router";
 import "./App.css";
-import { HomePage } from "./pages/HomePage";
+import { HomePage } from "./pages/home/HomePage";
 import { CheckoutPage } from "./pages/checkout/CheckoutPage";
-import { OrderPage } from "./pages/OrderPage";
+import { OrderPage } from "./pages/orders/OrderPage";
 import { TrackPage } from "./pages/TrackPage";
 import { NotFoundPage } from "./pages/NotFoundPage";
+import { useEffect, useState } from "react";
+import axios from "axios";
 
 function App() {
+  const [cart, setCart] = useState([]);
+
+  useEffect(() => {
+    (async () => {
+      const response = await axios.get("/api/cart-items?expand=product");
+      setCart(response.data);
+    })();
+  }, []);
+
   return (
     <Routes>
       {/* index = path"/" */}
-      <Route index element={<HomePage />} />
-      <Route path="checkout" element={<CheckoutPage />} />
-      <Route path="orders" element={<OrderPage />} />
-      <Route path="tracking" element={<TrackPage />} />
-      <Route path="*" element={<NotFoundPage />} />
+      <Route index element={<HomePage cart={cart} />} />
+      <Route path="checkout" element={<CheckoutPage cart={cart} />} />
+      <Route path="orders" element={<OrderPage cart={cart} />} />
+      <Route
+        path="tracking/:orderId/:productId"
+        element={<TrackPage cart={cart} />}
+      />
+      <Route path="*" element={<NotFoundPage cart={cart} />} />
     </Routes>
   );
 }
