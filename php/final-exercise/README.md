@@ -1,0 +1,35 @@
+# Data Type
+
+INT
+BIGINT
+
+FLOAT
+DOUBLE
+
+VARCHAR()
+TEXT
+
+DATE
+DATETIME
+
+# SIGNED - enable negatitive
+
+INT(11) SIGNED - number
+
+# UNSIGNED - exclude negatitive
+
+INT(11) UNSIGNED 0 - number
+
+# Create Table
+
+CREATE TABLE table_name
+
+EX: CREATE TABLE users (
+id INT(11) NOT NULL AUTO_INCREMENT,
+username VARCHAR(30) NOT NULL,
+pwd VARCHAR(30) NOT NULL,
+email VARCHAR(100) NOT NULL,
+created_at DATETIME NOT NULL DEFAULT CURRENT_TIME
+);
+
+NO ACTION - SET NULL - CASCADE
