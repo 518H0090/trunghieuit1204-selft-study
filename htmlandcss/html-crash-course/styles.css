@@ -1,0 +1,11 @@
+div {
+    width: 200px;
+    height: 200px;
+    border-radius: 25%;
+    background-color: chocolate;
+}
+
+div + div {
+    margin-top: 20px;
+    background-color: coral;
+}

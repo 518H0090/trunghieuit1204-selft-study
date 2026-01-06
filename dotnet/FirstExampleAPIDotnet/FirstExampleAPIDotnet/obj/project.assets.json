@@ -4171,31 +4171,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HOME\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/Users/huynhtrantrunghieu/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HOME\\Desktop\\trunghieuit1204-selft-study\\FirstExampleAPIDotnet\\FirstExampleAPIDotnet\\FirstExampleAPIDotnet.csproj",
+      "projectUniqueName": "/Users/huynhtrantrunghieu/trunghieuit1204-selft-study/dotnet/FirstExampleAPIDotnet/FirstExampleAPIDotnet/FirstExampleAPIDotnet.csproj",
       "projectName": "FirstExampleAPIDotnet",
-      "projectPath": "C:\\Users\\HOME\\Desktop\\trunghieuit1204-selft-study\\FirstExampleAPIDotnet\\FirstExampleAPIDotnet\\FirstExampleAPIDotnet.csproj",
-      "packagesPath": "C:\\Users\\HOME\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HOME\\Desktop\\trunghieuit1204-selft-study\\FirstExampleAPIDotnet\\FirstExampleAPIDotnet\\obj\\",
+      "projectPath": "/Users/huynhtrantrunghieu/trunghieuit1204-selft-study/dotnet/FirstExampleAPIDotnet/FirstExampleAPIDotnet/FirstExampleAPIDotnet.csproj",
+      "packagesPath": "/Users/huynhtrantrunghieu/.nuget/packages/",
+      "outputPath": "/Users/huynhtrantrunghieu/trunghieuit1204-selft-study/dotnet/FirstExampleAPIDotnet/FirstExampleAPIDotnet/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\HOME\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/huynhtrantrunghieu/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4214,7 +4207,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -4254,6 +4247,20 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.22, 8.0.22]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.osx-arm64",
+            "version": "[8.0.22, 8.0.22]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.22, 8.0.22]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -4262,7 +4269,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
